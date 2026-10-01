@@ -1,0 +1,31 @@
+.available-donations {
+  margin-top: 30px;
+}
+
+.available-donations-header {
+  margin-bottom: 20px;
+}
+
+.available-donations-header h2 {
+  margin: 0 0 6px;
+  font-size: 21px;
+  color: #222;
+}
+
+.available-donations-header p {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.donation-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 800px) {
+  .donation-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
