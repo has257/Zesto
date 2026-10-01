@@ -1,0 +1,89 @@
+.my-requests {
+  margin-top: 30px;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 25px;
+}
+
+.my-requests-header {
+  margin-bottom: 20px;
+}
+
+.my-requests-header h2 {
+  margin: 0 0 6px;
+  font-size: 21px;
+  color: #222;
+}
+
+.my-requests-header p {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.requests-table {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.requests-table-header,
+.requests-table-row {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1.5fr 1.3fr 1fr;
+  gap: 15px;
+  align-items: center;
+  min-width: 700px;
+}
+
+.requests-table-header {
+  padding: 13px 15px;
+  background: #f5f7f6;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #555;
+}
+
+.requests-table-row {
+  padding: 16px 15px;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 14px;
+  color: #444;
+}
+
+.requests-table-row:last-child {
+  border-bottom: none;
+}
+
+.request-status {
+  display: inline-block;
+  padding: 5px 11px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.request-status-pending {
+  background: #fff3e0;
+  color: #e65100;
+}
+
+.request-status-approved {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.request-status-collected {
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
+.no-requests {
+  padding: 30px;
+  text-align: center;
+  background: #f8faf8;
+  border-radius: 8px;
+  color: #777;
+  font-size: 14px;
+}
